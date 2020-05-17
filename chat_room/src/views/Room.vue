@@ -49,6 +49,13 @@ export default {
     handleSelect(e) {
       console.log(e);
       this.menuIndex = e.key;
+      if (this.menuIndex == 8) {
+        this.$axios.get("/user/outline").then(res => {
+          this.$router.push({
+            path: "/Login"
+          });
+        });
+      }
     }
   }
 };
