@@ -67,7 +67,7 @@ public class UserController {
         }
     }
 
-    @RequestMapping(value = "/outline", method = RequestMethod.GET)
+    @RequestMapping(value = "/n", method = RequestMethod.GET)
     public RestResult outline(HttpServletRequest request) {
         if (request.getSession().getAttribute("userid") == null) {
             return RestResult.buildError("未登录");

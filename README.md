@@ -28,6 +28,8 @@ java工程：chat_room_java
 axios.defaults.baseURL = 'http://localhost:9009/api/'
 Vue.prototype.$wsServer = "ws://localhost:9009/ws"
 
-项目中还有许多地方可以进行优化的，比如：用户登陆管理上我们可以用上shiro/security的安全框架、密码安全校验、websocket指定发送等等。
+
+项目中还有许多地方可以进行优化的，比如：用户登陆管理上我们可以用上shiro/security的安全框架、密码安全校验、websocket指定发送等等，大家可以先试着自己做，之后作者也会往这方面持续优化，也打算添加新功能，比如视频播放、直播、弹幕等等。
 
 作者提供一个设计思想、大致实现方式供各位同学学习参考，同学们可以下载项目，按照自己的思想，继续开发，发现不对的地方欢迎指正。
+

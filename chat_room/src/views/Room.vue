@@ -49,6 +49,12 @@ export default {
     handleSelect(e) {
       console.log(e);
       this.menuIndex = e.key;
+      if (this.menuIndex == 4 || this.menuIndex == 6) {
+        this.$message({
+          message: "待完善...",
+          type: "warning"
+        });
+      }
       if (this.menuIndex == 8) {
         this.$axios.get("/user/outline").then(res => {
           this.$router.push({
