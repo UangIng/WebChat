@@ -68,8 +68,8 @@ export default {
       };
       // 密码在实际项目中请使用加密传输
       this.$axios.post("/user/login", params).then(res => {
-        sessionStorage.setItem("userid",res.data.data.userid)
-        console.log(sessionStorage.getItem("userid"))
+        sessionStorage.setItem("userid", res.data.data.userid);
+        console.log(sessionStorage.getItem("userid"));
         this.$router.push({
           path: "/Room"
         });

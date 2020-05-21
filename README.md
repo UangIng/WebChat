@@ -6,7 +6,7 @@
 框架为SpringBoot + Mybatis-plus
 开发工具使用的是[IntelliJ IDEA 2019.3.3 x64]
 
-前端运用vue4.0、webpack框架构建项目
+前端运用vue3.0、webpack框架构建项目
 UI框架主要是element-ui
 请求使用axios
 通讯使用websocket
